@@ -1,0 +1,226 @@
+.main-food{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.food-menu{
+  
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+    
+}
+
+.food-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align cards from left to right */
+    gap: 3rem;
+    padding: 20px;
+}
+
+.food-details{
+    position: relative;
+    
+    bottom: 10%;
+    color: white;
+    line-height: 1px;
+    text-align: justify;
+    padding: 10px;
+}
+.food-details p{
+    font-size: small;
+}
+.food-card{
+    width: 220px;
+    height: 300px;
+    flex-direction: row;
+}
+
+.food-card:hover{
+    background-color: #ff761a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(36, 35, 35);
+}
+
+.add-to-cart-btn button{
+    width: 130px;
+    height: 20px;
+    position: relative;
+    bottom: 30px;
+    background-color: white;
+    color: black;
+    font-size:smaller ;
+    
+}
+
+
+/* style.css */
+/* Your existing styles */
+
+.star-rating {
+    display: flex;
+    color: #ffd700; /* Gold color for the solid stars */
+  }
+  
+  .star-icon {
+    font-size: 10px;
+  }
+  
+  .solid-star {
+    color: #ffd700; /* Gold color for the solid stars */
+  }
+  
+  .empty-star {
+    color: #ccc; /* Gray color for the empty stars */
+  }
+  
+
+  /* filter */
+
+  .filter-bar{
+    display: flex;
+  }
+
+  .filter-items{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
+  .filter-items .city-filter input{
+    height: 50px;
+    width: 100%;
+  }
+  .filter-items .price-filter input{
+    height: 50px;
+    width: 100%;
+  }
+
+  .city-filter:hover{
+    background-color: #ff761a;
+  }
+  .price-filter:hover{
+    background-color: #ff761a;
+  }
+
+  input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    border-radius: 50%;
+  }
+  input[type="radio"]:checked {
+    
+    border-color: #ff761a;
+    background-color: #ff761a;
+  }
+
+
+  /* cart */
+
+  .cart-whole{
+    background-color: black;
+    height: 100vh;
+  }
+  .cart-main {
+    background-color: black;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart-img{
+    position: relative;
+    
+    width: 150;
+    height: 100;
+    display: flex;
+/*     
+    border: 1px solid white; */
+  }
+  .item-details{
+    margin-right: 50px;
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid white; */
+  }
+  .item-details p{
+    color: white;
+    font-size:13px ;
+    line-height: 8px;
+    text-align: justify;
+    padding-left: 5px;
+  }
+  .cart-item {
+    display: flex;
+    
+    align-items: center;
+    width: 650px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .cart-item:hover{
+    background-color: #ff761a;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .item-quantity{
+    /* border: 1px solid white; */
+    margin-right: 50px;
+    width: 150px;
+    height: 100px;
+    
+  }
+
+  .item-quantity button{
+    width: 30px;
+    height: 20px;
+    color: black;
+    background-color: white;
+  }
+  
+  .item-remove{
+    height: 90px;
+    /* border: 1px solid white; */
+  }
+  .item-remove button{
+    height: 20px;
+    width: 100px;
+    color: black;
+    background-color: white;
+  }
+  #grand-total{
+    background-color: #ff761a;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  .empty-cart{
+    background-color: white;
+    width: 530px;
+    height:530px;
+    position: relative;
+    bottom: 10%;
+    left: 30%;
+    background-repeat: no-repeat;
+    background-image: url(empty.png);
+  }

@@ -1,0 +1,63 @@
+/* Styling for the Review component */
+  
+  .review-cards-container {
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow cards to wrap to a new row if needed */
+    justify-content: center; /* Center the cards horizontally */
+    width: 800px; /* Set a maximum width for the container */
+  }
+  
+  .review-card {
+    text-align: left;
+    background-color: white;
+ 
+    margin: 10px;
+    border-radius: 5px;
+    height: 150px;
+    width: 600px; /* Set a minimum width for each card */
+  }
+
+  .review-card:hover{
+    background-color: #ff761a;
+    color: white;
+  }
+  
+  h1 {
+    color: #ff761a; /* Set the header color to orange */
+    text-align: center; /* Center the header text */
+  }
+  
+  h3 {
+    color: #ff761a; /* Set the rating header color to orange */
+  }
+  
+  .star {
+    color: #ff761a; /* Set the star color to orange */
+    font-size: 20px; /* Adjust the star size */
+  }
+  
+  p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+
+  .profile-icon {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    border-radius: 50%; /* Make it a circle (adjust the value to make it more or less circular) */
+    margin-bottom: 10px;
+  }
+
+  .profile-info{
+    display: flex;
+  }
+
+  .profile-info h4{
+    position: relative;
+    bottom: 8px;
+  }
+  

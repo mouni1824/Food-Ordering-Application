@@ -1,0 +1,198 @@
+.profile-main{
+    width: 70%;
+    height: 75vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+}
+
+.profile-left{
+    width: 35%;
+    height: 75vh;
+    border-radius: 10px 0 0 10px;
+    background-color: #ff761a
+}
+
+.profile-left input{
+    border: 0;
+    text-align: center;
+}
+.profile-right{
+    width: 65%;
+    height: 75vh;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 80%;
+    border:0;
+    border-radius: 5px ;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 80%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.box-icon-left{
+    height: 30px;
+    width: 15%;
+}
+
+.box-icon-right{
+    height: 30px;
+    width: 85%;
+   
+   
+}
+.box-icon-right p{
+    margin: 0;
+    display: inline;
+    position: relative;
+    top: 8px;
+    text-align: center;
+}
+
+
+.box-item{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.box-item-desc{
+    width: 95%;
+    height: 110px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.box-item-desc input{
+    position: relative;
+    top: 10px;
+    width: 95%;
+    height: 60px;
+    border:0;
+}
+.box-item-desc-fav{
+    width: 95%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.text{
+    background-color: gainsboro;
+    border-radius: 8px;
+    height: 85px;
+    width: 95%;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.text p{
+    padding: 5px;
+    font-size: 90%;
+    text-align: justify;
+}
+.text-fav{
+    background-color: gainsboro;
+    border-radius: 8px;
+    height: 85px;
+    width: 95%;
+    position: relative;
+    bottom: 10px; 
+}
+
+.text-fav input{
+    width: 60%;
+    border: 0;
+}
+
+.text-item{
+    /* background-color: #ff761a; */
+    width: 95%;
+    height: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    padding: 5px;
+}
+
+.text-left{
+    width: 20%;
+    height: 30px;
+    background-color: #ff761a;
+    border-radius: 20px;
+    /* background-color: aliceblue; */
+}
+.text-left p{
+   font-size: 90%;
+   position: relative;
+   bottom: 10px;
+   color: white;
+}
+.text-right p{
+   font-size: 80%;
+   position: relative;
+   bottom: 12px;
+   text-align: left;
+   padding: 5px;
+}
+
+.text-right{
+    width: 80%;
+    height: 30px;
+    /* background-color: blue; */
+}
+
+
+/* For screens with a maximum width of 576px (e.g., mobile phones) */
+@media (max-width: 576px) {
+    .profile-main {
+      width: 95%;
+      top: 30%;
+    }
+  
+    .profile-left,
+    .profile-right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .box-icon {
+      font-size: 70%;
+    }
+  
+    .text p {
+      font-size: 80%;
+    }
+  
+    .text-left p {
+      font-size: 80%;
+    }
+  
+    .text-right p {
+      font-size: 70%;
+    }
+  }
+
+  

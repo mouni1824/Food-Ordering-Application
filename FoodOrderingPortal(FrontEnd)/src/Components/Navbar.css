@@ -1,0 +1,132 @@
+/* App.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    height: 50px;
+  }
+  
+  #menu-icon {
+
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 10px; /* Adjust the margin for spacing between menu icon and logo */
+  }
+
+ .nav-menu{
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  top: 10px;
+ }
+
+ .nav-menu p{
+  position: relative;
+  top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .nav-menu:hover{
+  background-color: #ff761a;
+  border-radius: 5px;
+ }
+  .nav-logo {
+    flex: 1;
+    text-align: center;
+    
+   
+  }
+  
+  .nav-logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-icon:hover{
+    color: #ff761a;
+  }
+  
+  .icon-link {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-link {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-logo {
+      flex: 1;
+      text-align: center;
+    }
+    .nav-icons {
+      margin-left: 10px; /* Reduce the left margin on smaller screens */
+    }
+    .nav-link {
+      margin-right: 10px; /* Reduce the right margin on smaller screens */
+    }
+    .icon-link {
+      margin-left: 10px; /* Reduce the left margin on smaller screens */
+    }
+    .nav-active {
+      position: fixed;
+      top: 60px; /* Adjust the top position to prevent overlapping with the Navbar on smaller screens */
+      left: 0;
+      height: calc(100% - 60px); /* Adjust the height to fit the available space on smaller screens */
+      width: 100%;
+      background-color: #222;
+      padding: 20px;
+      color: white;
+    }
+  }
+
+  /* mystyle */
+
+  .nav-logo{
+    position: relative;
+    right: 42%;
+  }
+
+  .nav-icons{
+    gap: 0.5rem;
+  }

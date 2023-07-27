@@ -1,0 +1,59 @@
+.feedback
+{
+    background-size:cover ;
+   
+}
+.down 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .login-form 
+  {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+    height: 70%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes slideIn 
+  {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .feedinput,.feedbutton
+   {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .feedbutton 
+  {
+    background-color: #ff761a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button#fb:hover 
+  {
+    background-color: #0056b3;
+  }
+  
